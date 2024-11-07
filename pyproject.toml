@@ -1,0 +1,17 @@
+[project]
+name = "agentai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.4",
+    "langchain-community>=0.3.5",
+    "langchain-google-genai>=2.0.4",
+    "langchain-openai>=0.2.5",
+    "langchain-pinecone>=0.2.0",
+    "langchain>=0.3.6",
+    "langgraph>=0.2.44",
+    "pinecone-client>=5.0.1",
+    "python-dotenv>=1.0.1",
+]
